@@ -17,8 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-            //NSLog(@"mutArrayOfOrgsName COUNT: %lu", (unsigned long)[[[loadDate alloc] mutArrayOfOrgsName] count]);
-            //NSLog(@"mutArrayOfEvents COUNT: %lu", (unsigned long)[[[loadDate alloc] mutArrayOfEvents] count]);
 
     [self createTableView];
     self.view.backgroundColor = [UIColor grayColor];
